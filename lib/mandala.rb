@@ -28,6 +28,10 @@ module Mandala
       Mandala.vm
     end
 
+    def dump
+      @js_source
+    end
+
   end
 
   def self.vm
